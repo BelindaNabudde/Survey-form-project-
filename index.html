@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF -8">
+        <meta name="viewport" content="width=device-width, initial scale=1"/>
+            <title>CodeImpact-SurveyForm</title>
+            <link rel="stylesheet" href="./style.css"/>
+    </head>
+    <body>
+        <div class="first-sec">
+        <img src="./images.png" alt="KanzuCode logo"/>
+        <div class="second-sec"> 
+        <h1 id="title">KanzuCode Survey Form</h1>
+        <p id="description">Take sometime to fill in this form with your details.</p>
+        </div>
+        </div>
+        <div class="third-section">
+        <form class="survey-form">
+                <label id="name">Name</label>
+                <br>
+                <input type="text" id="name-label" placeholder="Enter your name" required >
+                 <br>
+                <br>
+                <label id="email">Email</label>
+                <br>
+                <input type="email" id="email-label" placeholder="Enter your email" required >
+                <br>
+                <br>
+                <label id="age">Age(Option)</label>
+                <br>
+                <input type="number" placeholder="9" id="age-label" min="15" max="24">
+                <br>
+                <br>
+                <label for="dropdown" id="option-one" > What best describes your current Role?</label>
+                <br>
+                <select id="dropdown"  placeholder="Select current role">
+                    <option>Select current role</option> 
+                    <option value="student">Student</option>
+                    <option value="fulltimelearner">Full time learner</option>
+                <option value="Employed">Employed</option>
+                <option value="other">Other</option>
+                </select>
+                <br>
+                <br>
+            <label id="options"> Would you recommend the KCF Bootcamp to a friend?</label>
+            <br>
+            <div class="one-option">
+            <input type="radio" id="value1" name="option"> 
+            <label for="value1">Definitely</label>
+            <br>
+            <input type="radio" id="value2" name="option" > 
+            <label for="value2">Maybe</label>
+            <br>
+            <input type="radio" id="value3" name="option"> 
+            <label for="value3">Not sure</label>
+        </div>
+            <br>
+            <br>
+            <div class="many-options">
+            <label>What would you like to see improved in Bootcamp?(check all that apply)</label>
+            <br>
+            <input type="checkbox" id="value1">
+            <label for="value1">Front-end-projects</label>
+            <br>
+            <input type="checkbox" id="value2">
+            <label for="value2">Back-end-projects</label>
+            <br>
+            <input type="checkbox" id="value3">
+            <label for="value3">Data-Visualization</label>
+            <br>
+            <input type="checkbox" id="value4">
+            <label for="value4">Pair-programming sesions</label>
+            <br>
+            <input type="checkbox" id="value5">
+            <label for="value5">Coding Challenges</label>
+        </div>
+            <br>
+            <br>
+            <label for="textarea" id="textarea-label">Any comments or suggestions?</label>
+            <br>
+            <textarea id="placeholder-textarea" placeholder="Enter your comment"></textarea>
+            <br>
+            <br>
+            <button id="button-label">Submit</button>
+        </form> 
+</div>
+    </body>
+</html>

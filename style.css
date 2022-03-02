@@ -1,0 +1,177 @@
+.first-sec{
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: larger;
+}
+.second-sec{
+    margin-left: 20px;
+}
+body{
+    background-color: rgb(235, 230, 225);
+}
+img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.survey-form{
+    justify-content: center;
+    background-color: rgb(3, 3, 39);
+    padding-left: 200px;
+    padding-top: 50px;
+}
+.descrption{
+    color: black;
+}
+.third-section{
+    padding-left:80px;
+    padding-right:80px;
+    padding-top: 50px;
+ }
+#name{ 
+    color: white;
+    font-size: 30px;    
+}
+#name-label{
+    width: 80%;
+    height: 35px;
+    margin: 10px 0;
+    padding: 0 15px;
+
+} 
+#email{
+    color: white;
+    font-size: 30px;
+}
+#email-label{
+    width: 80%;
+    height: 35px;
+    margin: 10px 0;
+    padding: 0 15px;
+}
+#age{
+    color: white;
+    font-size: 30px;    
+}
+#age-label{
+    width: 80%;
+    height: 35px;
+    margin: 10px 0;
+    padding: 0 15px;
+}
+#option-one{ 
+    color: white;
+    font-size: 30px;
+}
+#dropdown{
+    color: black;
+    font-size: 15px; 
+    width: 84%;
+    height: 35px;
+    margin: 10px 0;
+    padding: 0 15px;
+}
+#options{
+    color: white;
+    font-size: 30px;
+}
+.one-option{
+    color: white;
+    font-size: 30px;
+}
+.many-options{
+    color: white;
+    font-size: 30px;
+}
+#textarea-label{
+    color: white;
+    font-size: 30px;
+}
+textarea{
+    width: 83%;
+    height: 65px;
+    font-size:20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+button{
+    width: 85%;
+    height: 35px;
+    margin: 10px 0;
+    padding: 0 15px;
+    background-color:rgb(75, 165, 75);
+}
+@media (max-width:425px){
+    .first-sec{
+        display: flex;
+        justify-content: left;
+    }
+    .third-section{
+        padding-left:40px;
+        padding-right:40px;
+        padding-top: 25px;
+    }
+    .survey-form{
+        justify-content: left;
+        padding-left: 50px;
+        padding-top: 15px;
+    }
+    #name{ 
+        font-size: 15px; 
+    }
+    #name-label{
+        width: 50%;
+        height: 15px;
+    } 
+    #email{
+        font-size: 15px;
+    }
+    #email-label{
+        width: 50%;
+        height: 15px;
+    }
+    #age{
+        font-size: 15px;    
+    }
+    #age-label{
+        width: 50%;
+        height: 15px;
+    }
+    #option-one{ 
+        font-size: 15px;
+    }
+    #dropdown{
+        font-size: 10px; 
+        width: 50%;
+        height: 15px;
+    }
+    #options{
+        font-size: 15px;
+    }
+    .one-option{
+        font-size: 15px;
+    }
+    #textarea-label{
+        font-size: 15px;
+    }
+    textarea{
+        width: 50%;
+        height: 35px;
+        font-size:15px;
+    }
+    button{
+        width: 55%;
+        height: 20px;
+    }
+    .many-options{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
